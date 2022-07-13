@@ -99,7 +99,7 @@ LowPolyCatFragmentShader LowPolyCatFS;
 void Cat::Init()
 {
 	LowPolyCat = new Mesh();
-	LowPolyCat->LoadFromObj("/Users/zhaoxiaofeng/MySoft/MySoftGl/lowpolycat/cat.obj");
+	LowPolyCat->LoadFromObj("/Users/zhaoxiaofeng/testgit/MySoftGL/resources/lowpolycat/cat.obj");
 
 
 	glViewport(0, 0, 500, 500);

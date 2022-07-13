@@ -122,11 +122,13 @@ int main(int argc, const char * argv[]) {
  //       glInit();
  //       glSetup();
   //      glRender();
+//            S.Init();
+//       S.Draw();
         Lambor.Init();
         Lambor.Draw();
-        S.Init();
-        S.Draw();
+
+    
         glutPresent();
-        saveToBmp(FrameBuffer,W,H,"/Users/zhaoxiaofeng/MySoft/MySoftGl/MySoftGl/render.bmp");
+        saveToBmp(FrameBuffer,W,H,"/Users/zhaoxiaofeng/testgit/MySoftGL/myrender.bmp");
     return 0;
 }

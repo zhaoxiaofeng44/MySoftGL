@@ -304,7 +304,7 @@ LamborghiniFragmentShaderGlass LamborghiniGlassFS;
 void Lamborghini::Init()
 {
 	M = new Mesh();
-	M->LoadFromObj("/Users/zhaoxiaofeng/MySoft/MySoftGl/resources/lambirggubu/Lamborghini_Aventador.obj");
+	M->LoadFromObj("/Users/zhaoxiaofeng/testgit/MySoftGL/resources/lambirggubu/Lamborghini_Aventador.obj");
 
 
 	glViewport(0, 0, 500, 500);
